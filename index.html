@@ -1,25 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Pagina de Prueba</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <H1>HOLA MUNDO</H1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam voluptatem reprehenderit suscipit tempora magni. Deleniti, sequi possimus fuga voluptate cum inventore! Quod quos eveniet cumque possimus corrupti animi itaque distinctio!</p>
-    <div>
-        <ul>
-            <li>hola</li>
-            <li>hola</li>
-            <li>hola</li>
-            <li>hola</li>
-            <li>hola</li>
+    <!-- ul>li*4>a -->
+    <ul> 
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <!-- ul.header-ul>li#list-item -->
+        <ul class="header-ul">
+            <li id="list-item"></li>
         </ul>
-    </div>
-    <script src="js/script.js"></script>
-
-</body></html>
+    </ul>
+    <!-- header>nav>ul.header-ul>li.list-item*5>a.link -->
+    <header>
+        <nav>
+            <ul class="header-ul">
+                <li class="list-item"><a href="" class="link"></a></li>
+                <li class="list-item"><a href="" class="link"></a></li>
+                <li class="list-item"><a href="" class="link"></a></li>
+                <li class="list-item"><a href="" class="link"></a></li>
+                <li class="list-item"><a href="" class="link"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header>nav>ul.header-ul>li.list-item*5>a.link>a.link{ Link $} -->
+    <header>
+        <nav>
+            <ul class="header-ul">
+                <li class="list-item"><a href="" class="link"><a href="" class="link"> Link 1</a></a></li>
+                <li class="list-item"><a href="" class="link"><a href="" class="link"> Link 2</a></a></li>
+                <li class="list-item"><a href="" class="link"><a href="" class="link"> Link 3</a></a></li>
+                <li class="list-item"><a href="" class="link"><a href="" class="link"> Link 4</a></a></li>
+                <li class="list-item"><a href="" class="link"><a href="" class="link"> Link 5</a></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- . = "CLASS" # = "ID" * = MULTIPLICADOR $ ="INCREMENTABLE" -->
+</body>
+</html>
